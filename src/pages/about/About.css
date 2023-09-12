@@ -1,0 +1,38 @@
+/* About.css */
+.about-container {
+    max-width: 600vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(170, 206, 230);
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-text {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-style: italic;
+    align-items: center;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  

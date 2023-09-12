@@ -1,0 +1,40 @@
+.portfolio {
+    padding: 60px 0;
+    text-align: center;
+    background-color: rgb(181, 218, 205);
+  }
+  
+  .portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .portfolio-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item p {
+    font-size: 1rem;
+  }
+  
